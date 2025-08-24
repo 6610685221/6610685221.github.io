@@ -1,0 +1,85 @@
+body {
+    background-color: #f6f5ec;
+    font-family: 'Times New Roman', Times, serif;
+    /* Add margin: 0 to remove default browser spacing */
+    margin: 0; 
+}
+
+header {
+    color: #49481c;
+    padding: 20px; /* Increased padding for better spacing */
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    background: linear-gradient(to bottom, #a3a37f, #d7ce93);
+    text-align: center; /* Center header content */
+}
+
+#myPic {
+    border-radius: 8%;
+    padding: 10px;
+}
+
+#AboutMe {
+    background: linear-gradient(to bottom, #d7ce93, #efebce);
+    color: #51480d;
+    padding: 20px;
+}
+
+#Interest {
+    background: linear-gradient(to bottom, #efebce, #d8a48f);
+    color: #594f1d;
+    padding: 20px;
+}
+
+#EE {
+    background: linear-gradient(to bottom, #d8a48f, #bb8487);
+    color: #572713;
+    padding: 20px;
+    /* This is the "clearfix" to contain the floated elements */
+    overflow: auto; 
+}
+
+#Education {
+    width: 50%;
+    float: left;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    padding-right: 20px;
+}
+
+#Experience {
+    width: 50%;
+    float: left; /* Use float: left for both to keep them aligned */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    padding-left: 20px;
+    margin-top: 55px; /* Adjusted margin to align headings */
+}
+
+/* Remove margin-top from Experience heading for better control */
+#Experience h4 {
+    margin-top: 0;
+}
+
+
+#Contact {
+    background-color: #bb8487;
+    color: #57181d;
+    padding: 20px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.bt button {
+    /* Style the buttons for a better look */
+    background-color: #49481c;
+    color: #f6f5ec;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bt button:hover {
+    background-color: #5a5921; /* Darken button on hover */
+}
